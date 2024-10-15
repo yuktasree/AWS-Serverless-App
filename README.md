@@ -4,6 +4,9 @@ This project demonstrates a serverless architecture using various AWS services t
 
 Architecture Diagram:
 
+![image](https://github.com/user-attachments/assets/22fba4e1-3fc7-4fda-b4d7-048503693637)
+
+
 In Stage 1 of the Pet-Cuddle-O-Tron application setup, we verify two email addresses to be used with Amazon Simple Email Service (SES), which starts in sandbox mode to prevent unverified email usage. First, we verify the sending email address (used by the application to send reminders), by adding it in the SES console and confirming the email verification link. Next, we repeat the process to verify the customer email address (used for testing purposes). Both addresses are now whitelisted, enabling the application to send email reminders during testing and later stages of the demo.
 
 <img width="1231" alt="image" src="https://github.com/user-attachments/assets/f6a76bb5-a41b-4f2d-87b4-de9d6de2ff57"> <br>
